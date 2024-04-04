@@ -30,4 +30,24 @@ a{
     border-radius:30px;
     border: 0;
     outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn img{
+    width: 20px;
+    margin-left: 10px;
+}
+.btn.dark-btn{
+ background: #212EA0;
+ color: white;
+}
+@media (max-width:1024px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
 }
